@@ -1,4 +1,6 @@
-
+```python
+python compute_market.py --dir xxxx
+```
 ## Perceptual Similarity Metric and Dataset [[Project Page]](http://richzhang.github.io/PerceptualSimilarity/)
 
 This repository contains the **(1) Learned Perceptual Image Patch Similarity (LPIPS) metric** and **(2) Berkeley-Adobe Perceptual Patch Similarity (BAPPS) dataset** proposed in the paper below. It can also be used as an implementation of the "perceptual loss".
