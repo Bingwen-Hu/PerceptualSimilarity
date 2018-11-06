@@ -40,4 +40,4 @@ for ii in range(5):
 		score_max = score/num
 	if score/num <score_min:
 		score_min = score/num
-print('score: %f +- %f'%((score_max+score_min)/2, (score_max-score_min)/2) )
+print('score: %.3f +- %.3f'%((score_max+score_min)/2, (score_max-score_min)/2) )

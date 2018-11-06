@@ -170,7 +170,9 @@ def load_image(path):
         # img = plt.imread(path)
     elif(path[-3:]=='bmp' or path[-3:]=='jpg' or path[-3:]=='png'):
         import cv2
-        return cv2.imread(path)[:,:,::-1]
+        img =  cv2.imread(path)[:,:,::-1]
+        img = cv2.resize(img, (128, 256))
+        return img
     else:
         img = (255*plt.imread(path)[:,:,:3]).astype('uint8')
 
