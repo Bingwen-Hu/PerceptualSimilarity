@@ -1,4 +1,4 @@
-```python
+```bash
 python compute_market.py --dir xxxx
 ```
 ## Perceptual Similarity Metric and Dataset [[Project Page]](http://richzhang.github.io/PerceptualSimilarity/)
