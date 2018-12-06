@@ -11,7 +11,8 @@ opt = parser.parse_args()
 
 ## Initializing the model
 model = dm.DistModel()
-model.initialize(model='net-lin',net='alex',use_gpu=True)
+#model.initialize(model='net-lin',net='alex',use_gpu=True)
+model.initialize(model='ssim',use_gpu=True)
 
 score = 0
 num = 0
